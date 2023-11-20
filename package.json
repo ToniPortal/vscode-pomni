@@ -2,7 +2,7 @@
   "name": "pomni",
   "displayName": "pomni",
   "description": "A digital circuit Pomni extension for do random name",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -15,7 +15,17 @@
     "commands": [{
       "command": "pomni.random",
       "title": "Random name Pomni"
-    }]
+    }],
+    "publisher": "Toni",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ToniPortal/vscode-pomni.git"
+    },
+    "keywords": [
+      "pomni",
+      "digital circus",
+      "circus"
+    ]
   },
   "scripts": {
     "lint": "eslint .",
